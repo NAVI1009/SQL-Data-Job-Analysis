@@ -1,3 +1,33 @@
+/*
+===========================================
+Question 2: What skills are required for the top-paying Data Analyst jobs?
+===========================================
+
+Objective:
+Determine which technical skills are required for the highest-paying
+Data Analyst positions.
+
+Dataset:
+- job_postings_fact
+- company_dim
+- skills_job_dim
+- skills_dim
+
+Approach:
+1. Identify the top-paying Data Analyst jobs.
+2. Join the corresponding required skills.
+3. Display each skill associated with these jobs.
+
+Skills Demonstrated:
+- Common Table Expressions (CTEs)
+- Multiple INNER JOINs
+- Filtering
+- ORDER BY
+
+Expected Insight:
+Shows which technical skills are commonly requested in
+high-paying Data Analyst roles.
+*/
 WITH job_company AS
     (SELECT
         job_id,
