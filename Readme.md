@@ -31,7 +31,7 @@ SQL-Data-Job-Analysis
 │   ├── 4_top_paying_skills_acc_salary.sql
 │   └── 5_optimal_skills.sql
 │
-├── screenshots/
+├── Result/
 │
 ├── README.md
 ├── LICENSE
@@ -130,23 +130,18 @@ J-->K
 
 📷 Sample Results
 
-> Add screenshots of your SQL query outputs in the screenshots folder and display them here.
+> Add csv of your SQL query outputs in the result folder and display them here.
 
 Example:
 
 Top Paying Jobs
 
-![Top Paying Jobs](screenshots/top_paying_jobs.png)
+![Top Paying Jobs](result/top_paying_jobs.png)
 
 
 Most In-Demand Skills
 
-![Demanded Skills](screenshots/demanded_skills.png)
-
-
-Highest Paying Skills
-
-![Highest Paying Skills](screenshots/highest_paying_skills.png)
+![Demanded Skills](results/demanded_skills.png)
 
 
 🎯 Key Insights
