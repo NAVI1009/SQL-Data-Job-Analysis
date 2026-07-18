@@ -1,3 +1,35 @@
+/*
+===========================================
+Question 5: What are the most optimal skills to learn?
+===========================================
+
+Objective:
+Identify skills that provide the best combination of
+high demand and high salary.
+
+Dataset:
+- job_postings_fact
+- skills_job_dim
+- skills_dim
+
+Approach:
+1. Calculate skill demand.
+2. Calculate average salary for each skill.
+3. Combine both analyses.
+4. Rank skills with high demand and high salaries.
+
+Skills Demonstrated:
+- Common Table Expressions (CTEs)
+- Multiple Aggregations
+- INNER JOIN
+- COUNT()
+- AVG()
+- ORDER BY
+
+Expected Insight:
+Recommends the best skills to learn based on
+market demand and earning potential.
+*/
 WITH Skill_demand AS 
     (SELECT 
         skills_dim.skill_id,
