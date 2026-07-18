@@ -1,3 +1,32 @@
+/*
+===========================================
+Question 4: Which skills are associated with the highest salaries?
+===========================================
+
+Objective:
+Calculate the average salary for each technical skill
+to identify the highest-paying skills.
+
+Dataset:
+- job_postings_fact
+- skills_job_dim
+- skills_dim
+
+Approach:
+1. Join salary information with required skills.
+2. Calculate average salary for each skill.
+3. Rank skills by average salary.
+
+Skills Demonstrated:
+- AVG()
+- GROUP BY
+- ORDER BY
+- Aggregate Functions
+
+Expected Insight:
+Identifies the technical skills that command the
+highest average salaries in the job market.
+*/
 SELECT 
     skills,
     ROUND(avg(salary_year_avg),0) AS salary_avg
